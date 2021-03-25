@@ -1,0 +1,49 @@
+
+.card{
+  background-color:	#d5deff;
+  color:#2E5BFF;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card:hover, .card.selected{
+  background-color: '#2E5BFF';
+  color: 'white';
+}
+
+.row{
+  width: 100%;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+.header1 {
+  text-align: center;
+}
+.intugine {
+  border-color: #d5deff;
+  border-style: none;
+}
+
+#tableStyle {
+    overflow: 'auto';
+    width: "inherit";
+    height: '60vh';
+    display: 'block'
+}
+
+.table-head{
+  font-size: 0.8rem;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.details{
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.filterRow:hover, .filterRow.selected{
+  background: #D5DEff;
+}
